@@ -2,7 +2,7 @@
 const letrasAninhadas = [['o', 'l', 'a'],['m','u','n','d','o']]
 
 console.log(letrasAninhadas.flat()) // cria um novo array com todos elementos sub-arrays concatenados nele
-// letras.flat(Infinity) achata ao maximo
+// letras.flat(Infinity) achata ao maximo o vetor
 
 const letras = letrasAninhadas.flat(Infinity) // sao varios subvetores dentro de um vetor so,
 // entao cria um vetor com todos os elementos tirando os subvetores
